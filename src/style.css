@@ -1,0 +1,42 @@
+:root {
+  --primary-color: #e6ddde;
+  --secondary-color: #916a70;
+  --third-color: #654a4e;
+}
+
+body {
+  font-family: "Libre Baskerville", serif;
+  background: var(--primary-color);
+}
+.hero {
+  margin: 100px 50px;
+}
+h1 {
+  color: var(--third-color);
+  font-size: 64px;
+}
+h2 {
+  color: white;
+  font-size: 40px;
+}
+h3 {
+  color: var(--secondary-color);
+  margin-bottom: 100px;
+  font-size: 25px;
+}
+.hero .bw-image {
+  max-width: 380px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+.btn-styling {
+  background: var(--third-color);
+  color: white;
+  padding: 14px 25px;
+  border-radius: 50px;
+  text-decoration: none;
+}
+a:hover {
+  color: var(--primary-color);
+}
