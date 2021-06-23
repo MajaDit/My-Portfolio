@@ -151,6 +151,9 @@ footer .icons a {
   font-size: 24px;
   padding: 0 10px;
 }
+.portfolio h1 {
+  margin-bottom: 50px;
+}
 @media (max-width: 767px) {
   div.container.index {
     margin: 0 auto;
