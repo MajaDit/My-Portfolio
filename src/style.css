@@ -167,16 +167,18 @@ div.button a:hover {
   }
   .projects h2 {
     font-size: 32px;
-    margin-top: 40px;
   }
   h6 {
     font-size: 24px;
+    margin-bottom: 15px;
   }
   .projects p {
     padding: 0 0 30px;
   }
+  .projects div.button {
+    margin-top: 30px;
+  }
   .projects div.the-f-word-image-container img {
     max-width: 250px;
-    margin-top: 50px;
   }
 }
