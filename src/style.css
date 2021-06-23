@@ -56,6 +56,7 @@ h3 {
 }
 .hero .bw-image {
   max-width: 380px;
+  height: auto;
   border-radius: 50%;
   display: block;
   margin: 0 auto;
