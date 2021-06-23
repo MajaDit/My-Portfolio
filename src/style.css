@@ -38,8 +38,7 @@ ul {
 li.active a {
   color: var(--third-color);
 }
-.hero,
-.projects {
+.hero {
   margin: 100px auto;
 }
 h1 {
@@ -63,13 +62,21 @@ h3 {
   display: block;
   margin: 0 auto;
 }
-h5 {
+h5,
+h5 a {
   color: black;
   opacity: 70%;
   font-size: 18px;
   text-align: center;
   line-height: 1.4;
+  text-decoration: none;
+}
+h5 {
   padding: 0 20px;
+}
+h5 a:hover {
+  color: var(--third-color);
+  opacity: 100%;
 }
 h6 {
   color: var(--third-color);
@@ -87,7 +94,7 @@ h6 {
 .hero div.button {
   margin-top: 100px;
 }
-a:hover {
+div.button a:hover {
   color: var(--primary-color);
 }
 .projects {
@@ -167,9 +174,6 @@ a:hover {
   }
   .projects p {
     padding: 0 0 30px;
-  }
-  .the-f-word-project {
-    margin-top: -80px;
   }
   .projects div.the-f-word-image-container img {
     max-width: 250px;
