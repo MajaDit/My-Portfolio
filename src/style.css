@@ -2,24 +2,40 @@
   --primary-color: #e6ddde;
   --secondary-color: #916a70;
   --third-color: #654a4e;
+  --fourth-color: #89586b;
 }
 
 body {
   font-family: "Libre Baskerville", serif;
   background: var(--primary-color);
 }
+.container.index {
+  margin-left: 70px;
+}
 .menu {
-  padding-top: 10px;
+  padding-top: 15px;
+}
+.menu h4 a {
+  color: var(--fourth-color);
+}
+.menu a {
+  text-decoration: none;
+  color: var(--secondary-color);
 }
 nav li {
   display: inline;
   line-height: 2;
   padding: 0 10px;
 }
+nav li a:hover {
+  color: var(--third-color);
+}
 ul {
   margin: 0;
 }
-
+li.active a {
+  color: var(--third-color);
+}
 .hero {
   margin: 100px 50px;
 }
@@ -30,7 +46,8 @@ h1 {
 h2 {
   color: white;
   font-size: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+  text-shadow: 1px 1px 2px var(--secondary-color);
 }
 h3 {
   color: var(--secondary-color);
