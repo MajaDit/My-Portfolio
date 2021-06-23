@@ -61,6 +61,11 @@ h3 {
   display: block;
   margin: 0 auto;
 }
+h5 {
+  color: black;
+  font-size: 18px;
+  text-align: center;
+}
 .btn-styling {
   background: var(--third-color);
   color: white;
@@ -70,4 +75,13 @@ h3 {
 }
 a:hover {
   color: var(--primary-color);
+}
+.projects p {
+  color: var(--secondary-color);
+}
+.projects .weather-app-image {
+  border-radius: 30px;
+}
+.projects img .the-f-work-image {
+  border-radius: 30px;
 }
