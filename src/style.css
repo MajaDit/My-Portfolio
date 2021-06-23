@@ -76,12 +76,18 @@ h5 {
 a:hover {
   color: var(--primary-color);
 }
+.projects {
+  margin-bottom: 30px;
+}
 .projects p {
   color: var(--secondary-color);
 }
 .projects .weather-app-image {
   border-radius: 30px;
 }
-.projects img .the-f-work-image {
+.projects div.the-f-work-image-container img {
+  max-width: 350px;
   border-radius: 30px;
+  display: block;
+  margin: 30px auto;
 }
