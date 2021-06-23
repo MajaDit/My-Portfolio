@@ -56,7 +56,7 @@ h3 {
   font-size: 25px;
 }
 .hero .bw-image,
-.about .colour-image-container img {
+.colour-image-container img {
   max-width: 380px;
   height: auto;
   border-radius: 50%;
@@ -153,6 +153,16 @@ footer .icons a {
 }
 .portfolio h1 {
   margin-bottom: 50px;
+}
+.contact h1 {
+  margin: 50px auto;
+}
+.contact a {
+  text-decoration: none;
+  color: var(--third-color);
+}
+.contact .colour-image-container {
+  margin: 50px auto;
 }
 @media (max-width: 767px) {
   div.container.index {
