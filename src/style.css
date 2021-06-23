@@ -9,11 +9,12 @@ body {
   font-family: "Libre Baskerville", serif;
   background: var(--primary-color);
 }
-.container.index {
+nav .container.index {
   margin-left: 70px;
 }
 .menu {
   padding-top: 15px;
+  background: white;
 }
 .menu h4 a {
   color: var(--fourth-color);
@@ -29,6 +30,7 @@ nav li {
 }
 nav li a:hover {
   color: var(--third-color);
+  font-weight: bold;
 }
 ul {
   margin: 0;
