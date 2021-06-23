@@ -223,7 +223,8 @@ footer .icons a {
   .projects div.the-f-word-image-container img {
     max-width: 250px;
   }
-  .about .colour-image-container {
+  .about .colour-image-container,
+  .contact .colour-image-container {
     display: none;
   }
 }
