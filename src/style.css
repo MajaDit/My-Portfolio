@@ -137,7 +137,6 @@ footer a {
   color: var(--fourth-color);
   text-decoration: none;
   font-size: 20px;
-  text-shadow: none;
 }
 footer a:hover {
   color: var(--third-color);
@@ -152,9 +151,12 @@ footer .icons a {
 footer h5 {
   margin-top: 10px;
   font-size: 14px;
+  opacity: 100%;
 }
 footer h5 a {
   font-size: 14px;
+  color: var(--fourth-color);
+  opacity: 100%;
 }
 .portfolio h1 {
   margin-bottom: 50px;
@@ -172,8 +174,12 @@ footer h5 a {
 .contact h5,
 .contact h5 a {
   text-align: left;
-  padding: 60px 60px 0 0;
-  font-size: 18px;
+  padding: 60px 0 0 0;
+  font-size: 17px;
+}
+.contact h5 a {
+  color: var(--third-color);
+  opacity: 100%;
 }
 @media (max-width: 767px) {
   div.container.index {
