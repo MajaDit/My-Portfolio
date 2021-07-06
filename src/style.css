@@ -7,7 +7,6 @@
 
 body {
   font-family: "Libre Baskerville", serif;
-  background: var(--primary-color);
 }
 nav .container.index {
   margin-left: 70px;
@@ -46,10 +45,10 @@ h1 {
   font-size: 64px;
 }
 h2 {
-  color: white;
+  color: var(--primary-color);
   font-size: 40px;
   margin-bottom: 15px;
-  text-shadow: 1px 1px 2px var(--secondary-color);
+  text-shadow: 1px 1px 2px #222;
 }
 h3 {
   color: var(--secondary-color);
