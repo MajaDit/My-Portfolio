@@ -206,7 +206,7 @@ footer h5 a {
     margin-top: 50px;
   }
   .projects h2 {
-    font-size: 32px;
+    font-size: 32px !important;
   }
   h6 {
     font-size: 24px;
