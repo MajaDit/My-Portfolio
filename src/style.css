@@ -16,10 +16,7 @@ body {
 .menu h4 a {
   color: var(--fourth-color) !important;
 }
-.menu a {
-  text-decoration: none;
-  color: var(--secondary-color);
-}
+
 nav li {
   display: inline;
   line-height: 2;
@@ -180,22 +177,6 @@ footer h5 a {
   opacity: 100%;
 }
 @media (max-width: 767px) {
-  div.container.index {
-    margin: 0 auto;
-    display: block;
-  }
-  nav {
-    display: block;
-  }
-  nav.menu a {
-    font-size: 17px;
-  }
-  h4 a {
-    display: none;
-  }
-  ul {
-    padding: 0;
-  }
   h1,
   h2,
   h3,
