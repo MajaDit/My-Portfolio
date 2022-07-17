@@ -117,12 +117,11 @@ div.button a:hover {
 }
 .about h1,
 .portfolio h1,
+.contact h1,
 .about img {
   margin-top: 100px;
 }
-div.contact h1 {
-  margin-top: 100px;
-}
+
 .about p {
   padding: 20px 0 40px;
   font-size: 14px;
@@ -161,15 +160,13 @@ footer h5 a {
 .portfolio h1 {
   margin-bottom: 50px;
 }
-.contact h1 {
-  margin: 50px auto;
-}
+
 .contact a {
   text-decoration: none;
   color: var(--third-color);
 }
 .contact .colour-image-container {
-  margin: 50px auto;
+  margin: 100px auto;
 }
 .contact h5,
 .contact h5 a {
@@ -228,5 +225,8 @@ footer h5 a {
   .about .colour-image-container,
   .contact .colour-image-container {
     display: none;
+  }
+  .email {
+    font-size: 20px;
   }
 }
