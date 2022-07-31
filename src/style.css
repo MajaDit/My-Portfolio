@@ -68,7 +68,6 @@ h5.home {
 }
 h5 a:hover {
   color: var(--third-color);
-  opacity: 100%;
 }
 h6 {
   color: var(--third-color);
@@ -97,13 +96,7 @@ div.button a:hover {
   padding: 30px 50px 40px 0;
   line-height: 1.4;
 }
-.projects .btn-styling {
-  background: var(--third-color);
-  color: white;
-  padding: 14px 25px;
-  border-radius: 50px;
-  text-decoration: none;
-}
+
 .projects .weather-app-image {
   border-radius: 30px;
 }
