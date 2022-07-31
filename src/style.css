@@ -203,8 +203,9 @@ footer h5 a {
   .projects div.memory-game-image-container img {
     max-width: 250px;
   }
-  .colour-image-container {
+  .colour-image-container img {
     margin-top: 50px;
+    max-width: 80%;
   }
   .email {
     font-size: 20px;
