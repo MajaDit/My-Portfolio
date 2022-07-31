@@ -100,7 +100,7 @@ div.button a:hover {
 .projects .weather-app-image {
   border-radius: 30px;
 }
-.projects div.memory-game-image-container img {
+.memory-game-image-container img {
   max-width: 350px;
   display: block;
   margin: 30px auto;
@@ -193,7 +193,7 @@ footer h5 a {
     margin-top: 30px;
     margin-bottom: 30px;
   }
-  .projects div.memory-game-image-container img {
+  .memory-game-image-container img {
     max-width: 250px;
   }
   .colour-image-container img {
