@@ -148,33 +148,24 @@ footer .icons a {
 footer h5 {
   margin-top: 10px;
   font-size: 14px;
-  opacity: 100%;
 }
 footer h5 a {
   font-size: 14px;
   color: var(--fourth-color);
-  opacity: 100%;
 }
 .portfolio h1 {
   margin-bottom: 50px;
 }
 
-.contact a {
-  text-decoration: none;
-  color: var(--third-color);
-}
 .contact .colour-image-container {
   margin: 100px auto;
 }
+
 .contact h5 {
-  text-align: left;
-  padding: 60px 0 0 0;
-  font-size: 17px;
+  padding-top: 60px;
+  font-size: 15px;
 }
-.contact h5 a {
-  color: var(--third-color);
-  opacity: 100%;
-}
+
 @media (max-width: 767px) {
   h1,
   h2,
