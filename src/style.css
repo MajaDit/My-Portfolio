@@ -9,7 +9,7 @@ body {
   font-family: "Libre Baskerville", serif;
 }
 
-.menu {
+/* .menu {
   padding-top: 15px;
   background: white;
 }
@@ -31,7 +31,7 @@ ul {
 }
 li.active a {
   color: var(--third-color);
-}
+} */
 .hero {
   margin: 100px auto;
 }
