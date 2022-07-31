@@ -96,9 +96,8 @@ div.button a:hover {
   padding: 30px 50px 40px 0;
   line-height: 1.4;
 }
-
-.projects .weather-app-image {
-  border-radius: 30px;
+.quote-generator-image img {
+  border-radius: 6px;
 }
 .memory-game-image-container img {
   max-width: 350px;
@@ -112,7 +111,6 @@ div.button a:hover {
 .about img {
   margin-top: 100px;
 }
-
 .about p {
   padding: 20px 0 40px;
   font-size: 14px;
