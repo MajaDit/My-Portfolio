@@ -48,9 +48,9 @@ h3 {
   color: var(--secondary-color);
   font-size: 25px;
 }
-.hero .bw-image,
+
 .colour-image-container img {
-  max-width: 380px;
+  max-width: 350px;
   height: auto;
   border-radius: 4%;
   display: block;
@@ -157,10 +157,6 @@ footer h5 a {
   margin-bottom: 50px;
 }
 
-.contact .colour-image-container {
-  margin: 100px auto;
-}
-
 .contact h5 {
   padding-top: 60px;
   font-size: 15px;
@@ -184,9 +180,6 @@ footer h5 a {
   .hero {
     margin-top: 120px;
   }
-  .hero .bw-image {
-    max-width: 250px;
-  }
   h3 {
     margin-top: 20px;
   }
@@ -209,10 +202,6 @@ footer h5 a {
   }
   .projects div.memory-game-image-container img {
     max-width: 250px;
-  }
-  .about .colour-image-container,
-  .contact .colour-image-container {
-    display: none;
   }
   .email {
     font-size: 20px;
