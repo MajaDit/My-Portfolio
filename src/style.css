@@ -62,6 +62,9 @@ h6 {
 div.button a:hover {
   color: var(--primary-color);
 }
+.home h5 {
+  margin-top: -20px;
+}
 .projects {
   margin-top: 60px;
 }
