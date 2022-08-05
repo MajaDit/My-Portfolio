@@ -8,30 +8,6 @@
 body {
   font-family: "Libre Baskerville", serif;
 }
-
-/* .menu {
-  padding-top: 15px;
-  background: white;
-}
-.menu h4 a {
-  color: var(--fourth-color) !important;
-}
-
-nav li {
-  display: inline;
-  line-height: 2;
-  padding: 0 10px;
-}
-nav li a:hover {
-  color: var(--third-color);
-  font-weight: bold;
-}
-ul {
-  margin: 0;
-}
-li.active a {
-  color: var(--third-color);
-} */
 .hero {
   margin: 100px auto;
 }
