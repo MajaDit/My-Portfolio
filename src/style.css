@@ -8,6 +8,9 @@
 body {
   font-family: "Libre Baskerville", serif;
 }
+nav {
+  padding: 5px 26px 0 0 !important;
+}
 .hero {
   margin: 100px auto;
 }
@@ -128,9 +131,7 @@ footer h5 a {
   padding-top: 60px;
   font-size: 15px;
 }
-nav {
-  max-width: 100% !important;
-}
+
 @media (max-width: 767px) {
   h1,
   h2,
