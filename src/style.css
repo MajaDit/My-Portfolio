@@ -186,7 +186,13 @@ footer h5 a {
   h3 {
     font-size: 20px;
   }
+  h5 {
+    font-size: 15px;
+  }
   p {
-    font-size: 11px;
+    font-size: 12px;
+  }
+  .about p {
+    font-size: 12px;
   }
 }
