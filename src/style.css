@@ -25,6 +25,11 @@ h3 {
   font-size: 25px;
 }
 
+.contact footer,
+.container h5 {
+  text-align: left;
+  margin-top: 0;
+}
 .colour-image-container img {
   max-width: 350px;
   height: auto;
