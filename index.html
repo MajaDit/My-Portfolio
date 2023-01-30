@@ -9,324 +9,306 @@
       content="Maja Ditrtova is a Front end developer based in London."
     />
     <title>Maja Ditrtova</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap"
-      rel="stylesheet"
-    />
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://kit.fontawesome.com/5a3774069e.js"
-      crossorigin="anonymous"
-    ></script>
+
     <link rel="stylesheet" href="/src/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <style>
+      .swiper {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+
+      .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+      }
+    </style>
   </head>
   <body>
-    <nav class="menu navbar fixed-top navbar-expand-lg navbar-light bg-light">
-      <div class="container">
-        <h4>
-          <a class="navbar-brand" href="/" title="Home">Maja Ditrtova</a>
-        </h4>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a
-                class="nav-link active"
-                aria-current="page"
-                href="/"
-                title="Home"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/about.html" title="about me"
-                >About me</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/portfolio.html" title="about me"
-                >Portfolio</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/contact.html" title="contact me"
-                >Contact me</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <div class="container home">
-      <div class="row hero">
-        <div class="col-md-6">
-          <h2>Hi, I am</h2>
-          <h1>Maja Ditrtova</h1>
-          <h3>Web Developer based in London</h3>
-          <div class="button">
-            <a class="btn-styling" href="/about.html" title="About me"
-              >About me</a
-            >
+    <section class="navbar-section"></section>
+    <section class="hero-section">
+      <div class="flexbox">
+        <div class="hero-left-container">
+          <div class="navbar">
+            <nav>
+              <ul>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#get-in-touch">Get In Touch</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="hero-text">
+            <h2>Hi, I am</h2>
+            <h1>Mája Ditrtová</h1>
+            <h3>Web Developer based in London</h3>
+            <div class="buttons">
+              <button>
+                <a href="#about-me" class="btn-styling" title="About me"
+                  >About me</a
+                >
+              </button>
+              <button>
+                <a href="#portfolio" class="btn-styling" title="My Portfolio"
+                  >My Projects</a
+                >
+              </button>
+            </div>
           </div>
         </div>
-        <div class="col-md-6 colour-image-container">
-          <img src="/images/colour.jpg" alt="Profile Image" />
+        <div class="hero-image-container">
+          <img
+            class="hero-image__big-screen"
+            src="/images/hero-image (2).jpg"
+            alt="Photo of Maja"
+            width="100%"
+          />
+          <img
+            class="hero-image__small-screen"
+            src="./images/hero-image.jpg"
+            alt="Photo of Maja"
+            width="100%"
+          />
         </div>
       </div>
+    </section>
+    <section id="portfolio" class="portfolio-section">
       <h5>Take a look at my projects...</h5>
-    </div>
-    <div class="container portfolio">
-      <div class="row projects">
-        <div class="col-md-6 d-none d-md-block">
-          <img
-            class="img-fluid dictionary-app-image"
-            src="/images/Dictionary.png"
-            alt="Dictionary"
-          />
-        </div>
-        <div class="col-md-6">
-          <h2>React Dictionary</h2>
-          <p>
-            This dictionary was built as part of the SheCodes React Bootcamp
-            using the
-            <strong>JS React</strong> library.
-            <br />
-            <br />
-            Working on this project helped me solidify my understanding of core
-            React concepts, such as states, event listeners, array mapping, API
-            integration, and storing input data.
-          </p>
-          <div class="col-md-6 d-block d-md-none">
-            <img
-              class="img-fluid dictionary-app-image"
-              src="/images/Dictionary.png"
-              alt="Dictionary"
-            />
-          </div>
-          <div class="button">
-            <a
-              class="btn-styling"
-              href="https://react-dictionary-maja-ditrtova.netlify.app/"
-              target="_blank"
-              title="Dictionary App"
-              >View Dictionary App</a
-            >
-          </div>
-        </div>
-      </div>
-      <div class="row projects">
-        <div class="col-md-6">
-          <h2>React Weather App</h2>
-          <p>
-            As one of the final projects for SheCodes React, I built a weather
-            application using the <strong>JS React</strong> library.
-            <br />
-            <br />
-            Working on this, I learnt how to work with React components, React
-            event listeners, React states, loops and forms, as well as how to
-            call and use an API in a React application. I included a React
-            external component to implement animated icons and used the
-            dependencies Bootstrap and Axios.
-            <br />
-            <br />
-            The app currently has a unit conversion on today's temperature. In
-            the future, I am planning on adding a conversion to Fahrenheit on
-            the forecast as well.
-          </p>
-          <div class="col-md-6 d-block d-md-none">
-            <img
-              class="img-fluid react-weather-app-image"
-              src="/images/react-weather-app.png"
-              alt="Weather App"
-            />
-          </div>
-          <div class="button">
-            <a
-              class="btn-styling"
-              href="https://react-weather-app-maja-ditrtova.netlify.app/"
-              target="_blank"
-              title="React Weather app"
-              >Launch Weather App</a
-            >
-          </div>
-        </div>
-        <div class="col-md-6 d-none d-md-block">
-          <img
-            class="img-fluid react-weather-app-image"
-            src="/images/react-weather-app.png"
-            alt="Weather App"
-          />
-        </div>
-      </div>
-      <div class="row projects">
-        <div class="col-md-6 d-none d-md-block">
-          <img
-            class="img-fluid weather-app-image"
-            src="/images/weather-app.png"
-            alt="Weather App"
-          />
-        </div>
-        <div class="col-md-6">
-          <h2>Weather App</h2>
-          <p>
-            I built a weather app as part of the SheCodes Plus workshop, using
-            <strong>HTML5, CSS3, Bootstrap</strong> and
-            <strong>Vanilla Java Script</strong>.
-            <br />
-            <br />
-            I truly enjoyed working on this project, as it really helped develop
-            my understanding of Java Script; I worked with an API using Axios, I
-            learnt how to utilise loops, format dates, and handle data submitted
-            via forms.
-            <br />
-            <br />
-            In the future, this app could be improved by implementing a unit
-            conversion to Fahrenheit.
-          </p>
-          <div class="col-md-6 d-block d-md-none">
-            <img
-              class="img-fluid weather-app-image"
-              src="/images/weather-app.png"
-              alt="Weather App"
-            />
-          </div>
-          <div class="button">
-            <a
-              class="btn-styling"
-              href="https://blissful-sinoussi-43696b.netlify.app/"
-              target="_blank"
-              title="Weather app"
-              >Launch Weather App</a
-            >
-          </div>
-        </div>
-      </div>
-      <div class="row projects">
-        <div class="col-md-6">
-          <h2>NOW Music</h2>
-          <h6>Memory Card Game</h6>
-          <p>
-            A memory card game used in NOW Music's promotional campaign built
-            with <strong>HTML, CSS3, </strong> and
-            <strong>Vanilla Java Script</strong>.
-            <br />
-            <br />
-            This app was a really fun way for me to improve my coding skills
-            whilst engaging NOW fans. It helped broaden my understanding of
-            conditional rendering. I also learnt some neat CSS tricks to create
-            the flipping effect of the cards.
-            <br />
-            <br />
-            To make this card game even better, I would like to add a modal box
-            in the future, with a congratulations message once all of the cards
-            have been flipped, and an option to play again.
-          </p>
-          <div class="col-md-6 d-block d-md-none memory-game-image-container">
-            <img
-              class="img-fluid"
-              src="/images/memory-game.png"
-              alt="Memory Game"
-            />
-          </div>
-          <div class="button">
-            <a
-              class="btn-styling"
-              href="https://nowmusic-memory-card-game.netlify.app/"
-              target="_blank"
-              title="Memory Game"
-              >View Memory Game</a
-            >
-          </div>
-        </div>
-        <div class="col-md-6 d-none d-md-block">
-          <div class="col-md-6 d-none d-md-block memory-game-image-container">
-            <img
-              class="img-fluid"
-              src="/images/memory-game.png"
-              alt="Memory Game"
-            />
+      <div class="container portfolio">
+        <!-- Swiper -->
+
+        <div class="swiper-container">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <h2>React Dictionary</h2>
+                <div class="swiper-image">
+                  <a
+                    href="https://react-dictionary-maja-ditrtova.netlify.app/"
+                    target="_blank"
+                    title="Dictionary App"
+                  >
+                    <img src="./images/Dictionary.png"
+                  /></a>
+                </div>
+                <p>
+                  Working on this project helped me solidify my understanding of
+                  core React concepts, such as states, event listeners, array
+                  mapping, API integration, and storing input data.
+                </p>
+              </div>
+              <div class="swiper-slide">
+                <h2>Memory Card Game</h2>
+                <div class="swiper-image">
+                  <a
+                    href="https://nowmusic-memory-card-game.netlify.app/"
+                    target="_blank"
+                    title="Memory Game"
+                  >
+                    <img src="./images/memory-game.png"
+                  /></a>
+                </div>
+                <p>
+                  A memory card game used in NOW Music's promotional campaign
+                  built with <strong>HTML, CSS3, </strong> and
+                  <strong>Vanilla Java Script</strong>.
+                  <br />
+                  <br />
+                  This app was a really fun way for me to improve my coding
+                  skills whilst engaging NOW fans. It helped broaden my
+                  understanding of conditional rendering. I also learnt some
+                  neat CSS tricks to create the flipping effect of the cards.
+                </p>
+              </div>
+              <div class="swiper-slide">
+                <h2>Weather App</h2>
+                <a
+                  href="https://blissful-sinoussi-43696b.netlify.app/"
+                  target="_blank"
+                  title="Weather app"
+                >
+                  <img src="./images/weather-app.png"
+                /></a>
+                <p>
+                  A weather app built in <strong>Vanilla Java Script</strong>.
+                  <br />
+                  <br />
+                  I truly enjoyed working on this project, as it really helped
+                  develop my understanding of Java Script; I worked with an API
+                  using Axios, I learnt how to utilise loops, format dates, and
+                  handle data submitted via forms.
+                </p>
+              </div>
+              <div class="swiper-slide">
+                <h2>Quote Generator</h2>
+                <a
+                  href="https://quote-generator-md.netlify.app/"
+                  target="_blank"
+                  title="Quote Generator"
+                >
+                  <img src="./images/quote-generator.png" width="100%"
+                /></a>
+                <p>
+                  A quote generator built as part of an Udemy JavaScript
+                  Bootcamp, using
+                  <strong>HTML5, CSS3</strong> and
+                  <strong>Vanilla Java Script</strong>.
+                  <br />
+                  <br />
+                  I used an asynchronous function to fetch a random quote from
+                  an API. There is an option to tweet the quote by clicking a
+                  button.
+                </p>
+              </div>
+              <div class="swiper-slide">
+                <h2>React Weather App</h2>
+                <a
+                  href="https://react-weather-app-maja-ditrtova.netlify.app/"
+                  target="_blank"
+                  title="React Weather app"
+                >
+                  <img src="./images/react-weather-app.png"
+                /></a>
+                <p>
+                  I built a weather application using the
+                  <strong>JS React</strong> library.
+                  <br />
+                  <br />
+                  Working on this, I learnt how to work with React components,
+                  React event listeners, React states, loops and forms, as well
+                  as how to call and use an API in a React application. I
+                  included a React external component to implement animated
+                  icons and used the dependencies Bootstrap and Axios.
+                </p>
+              </div>
+              <div class="swiper-slide">
+                <h2>Customizable Christmas Card</h2>
+                <a
+                  href="https://now-christmas-card.netlify.app/"
+                  target="_blank"
+                  title="NOW Christmas Card"
+                >
+                  <img src="./images/now-christmas-card.png"
+                /></a>
+                <p>
+                  I spread a little bit of a Christmas cheer with this
+                  customizable Christmas card 🤶 This project was built as part
+                  of NOW Music's promotional Christmas campaign. Our fans were
+                  able to fill in the form to create a personalized Christmas
+                  card. There is a button to download the card to your computer.
+                </p>
+              </div>
+            </div>
+            <!-- <div class="swiper-pagination"></div> -->
           </div>
         </div>
       </div>
-      <div class="row projects">
-        <div class="col-md-6 d-none d-md-block quote-generator-image">
-          <img
-            class="img-fluid"
-            src="/images/quote-generator.png"
-            alt="Quote Generator App"
-          />
-        </div>
-        <div class="col-md-6">
-          <h2>Quote Generator</h2>
-          <p>
-            A quote generator built as part of an Udemy JavaScript Bootcamp,
-            using
-            <strong>HTML5, CSS3</strong> and
-            <strong>Vanilla Java Script</strong>.
-            <br />
-            <br />
-            I used an asynchronous function to fetch a random quote from an API.
-            There is an option to tweet the quote by clicking a button.
-          </p>
-          <div class="col-md-6 d-block d-md-none quote-generator-image">
-            <img
-              class="img-fluid"
-              src="/images/quote-generator.png"
-              alt="Quote Generator App"
-            />
-          </div>
-          <div class="button">
-            <a
-              class="btn-styling"
-              href="https://quote-generator-md.netlify.app/"
-              target="_blank"
-              title="Quote Generator"
-              >Launch Quote Generator</a
-            >
-          </div>
-        </div>
+    </section>
+    <section id="about-me" class="about-me-section">
+      <div class="about-me">
+        <h5>About Me</h5>
+        <p>
+          Hi :)
+          <br />
+          <br />
+          My name is Maja. I'm a Project Coordinator at Sony Music Entertainment
+          and a passionate Web Developer.
+          <br />
+          <br />
+          From the moment I created my first "Hello World" header, I knew I was
+          hooked. I love to code, mainly because it matches so well with the way
+          my brain is wired. I am an extremely detail-oriented person who loves
+          problem solving, so I really enjoy the fact that my code will not work
+          without absolute precision. Coding requires great organisational
+          skills, which my background in project management prepared me for
+          perfectly. I love expressing my creativity by building fun and
+          engaging applications.
+          <br />
+          <br />
+          I have completed SheCodes Pro Workshop, gaining knowledge and
+          practical skills in HTML5, CSS3, Java Script, React, responsive
+          design, and using Bootstrap library. I have been developing React and
+          Javacript applications ever since, plus exploring other tools and
+          languages (i.e. Wordpress, PHP, and Github).
+          <br />
+          <br />
+          I am really excited to learn more. I am looking for the right
+          opportunity to improve my coding skills.
+        </p>
       </div>
-    </div>
-    <footer>
-      <h2>
-        <a href="mailto:maja.ditrtova@outlook.com">maja.ditrtova@outlook.com</a>
-      </h2>
-      <div class="icons">
-        <a href="https://www.linkedin.com/in/majaditrtova/" target="_blank"
-          ><i class="fab fa-linkedin"></i
-        ></a>
-        <a href="https://github.com/MajaDit" target="_blank"
-          ><i class="fab fa-github"></i
-        ></a>
-      </div>
-      <h5>
-        This website is coded by Maja Ditrtova and is
-        <a href="https://github.com/MajaDit/My-Portfolio" target="_blank"
-          >open-sourced</a
-        >.
-      </h5>
-    </footer>
+    </section>
+    <section id="get-in-touch" class="get-in-touch">
+      <footer>
+        <h5>Get in touch</h5>
+
+        <a class="email" href="mailto:maja.ditrtova@outlook.com"
+          >maja.ditrtova@outlook.com</a
+        >
+        <div class="icons">
+          <a href="https://www.linkedin.com/in/majaditrtova/" target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/MajaDit" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </div>
+        <h6>
+          This website is coded by Maja Ditrtova and is
+          <a href="https://github.com/MajaDit/My-Portfolio" target="_blank"
+            >open-sourced</a
+          >.
+        </h6>
+      </footer>
+    </section>
   </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://kit.fontawesome.com/5a3774069e.js"
+    crossorigin="anonymous"
+  ></script>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      loop: true,
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+        autoHeight: true,
+      },
+      // pagination: {
+      //   el: ".swiper-pagination",
+      // },
+    });
+  </script>
 </html>
